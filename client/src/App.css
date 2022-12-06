@@ -1,0 +1,146 @@
+.header-clone {
+  border-bottom: 2px solid rgb(50, 150, 50);
+  height: 80px;
+  width: 100%;
+}
+.logo {
+  float: left;
+  height: 5rem;
+  /* padding: 10px; */
+  margin-left: 32px;
+}
+.camera-icon {
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-right: 32px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.card {
+  height: 300px;
+  width: 400px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.header-card-names {
+  float: left;
+  width: 80%;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.header-card-text {
+  font-size: 12px;
+}
+.header-card-icon {
+  float: right;
+  width: 10%;
+  height: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  transform: translate(25%, 50%);
+}
+
+.post-description {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.post-image {
+  width: 100%;
+  height: 170px;
+  margin: 5px 0;
+}
+.section-card-icon {
+  float: left;
+  margin-right: 5px;
+}
+
+.date {
+  float: right;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.post-likes {
+  font-size: 12px;
+  margin: 5px 10px;
+}
+
+.post-image-below {
+  width: 100%;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.landing-image {
+  height: 500px;
+  margin-right: 50px;
+}
+.landing-block {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 32px;
+  color: green;
+}
+.landing-button {
+  color: green;
+  border: 1px solid green;
+  background: transparent;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-form {
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px gray solid;
+  border-radius: 5px;
+}
+
+.form-elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form-elements input {
+  width: 80%;
+  margin: 10px 0;
+}
+
+.form-elements button {
+  background-color: rgba(5, 5, 255, 0.671);
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
